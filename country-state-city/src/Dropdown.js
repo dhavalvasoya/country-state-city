@@ -18,7 +18,7 @@ class Dropdown extends React.Component {
         this.setState({
             countries: [
                 { name: 'Germany', states: [{ name: 'berlin', cities: ['Duesseldorf', 'Leinfelden-Echterdingen', 'Eschborn'] }, { name: 'bremen' , cities: ["sarloon", "saxohy"] }] },{ name: 'Spain', states: [{ name: 'madrid', cities: ['Barcelona'] }] },
-                { name: 'USA', states: [{ name: 'texas', cities: ['Downers Grove'] },{ name: '  florida', cities: ['miami ','tampa'] }] },
+                { name: 'USA', states: [{ name: 'texas', cities: ['Downers Grove'] },{ name: 'florida', cities: ['miami ','tampa'] }] },
                 { name: 'India', states: [{ name: 'delhi', cities: ['Delhi'] }, { name: "gujarat", cities: ["surat", "rajkot"] }] },
             ]
         });
